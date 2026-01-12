@@ -24,6 +24,7 @@ Resume
 ├── index.html
 
 ├── style.css
+
 └── img/
     └── photo.png
     
