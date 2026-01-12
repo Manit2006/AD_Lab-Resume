@@ -1,0 +1,121 @@
+
+
+body {
+    background: #eceff1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------- A4 PAGE SIZE SETTINGS -------------- */
+.a4-page {
+    width: 210mm;
+    min-height: 297mm;
+    background: #fff;
+    padding: 25mm 20mm;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+/* -------------- HEADER -------------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #3d7fff;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.header p {
+    margin-top: 8px;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.icons img {
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+    grid-row: 1row;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+    
+}
+
+.photo {
+    width: 150px;
+    height: 170px;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    object-fit: cover;
+}
+
+/* -------------- SECTIONS -------------- */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    border-left: 5px solid #3d7fff;
+    border-bottom: 1px solid #3d7fff;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+p, li {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+/* -------------- ROW LAYOUT FOR EDUCATION -------------- */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-text {
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* -------------- PROJECT STYLING -------------- */
+h3 {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.tech {
+    font-size: 14px;
+    color: #3d7fff;
+    font-weight: normal;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
